@@ -1,4 +1,4 @@
-# Rain Totals Extension for WeeWX
+# Rain Totals Service for WeeWX
 
 A WeeWX service that automatically calculates and stores rain totals aggregated by week, month, and year.
 
