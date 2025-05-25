@@ -26,7 +26,7 @@ GITHUB_URL = "https://github.com/inguy24/rain_totals_service/"
 
 # File mappings: source -> destination (relative to weewx root)
 file_list = [
-    ('bin/user/rain_totals.py', 'bin/user/rain_totals.py'),
+    ('bin/user/rain_totals_service.py', 'bin/user/rain_totals_service.py'),
 ]
 
 def loader():
@@ -107,7 +107,7 @@ class RainTotalsInstaller(object):
             config_dict['Engine']['Services'] = configobj.ConfigObj()
         
         # Add to data_services (runs after archive records are processed)
-        service_name = 'user.rain_totals.RainTotals'
+        service_name = 'user.rain_totals_service.RainTotals'
         
         if 'data_services' not in config_dict['Engine']['Services']:
             config_dict['Engine']['Services']['data_services'] = []
@@ -168,7 +168,7 @@ class RainTotalsInstaller(object):
     def _unconfigure_weewx(self, config_dict):
         """Remove Rain Totals service from weewx configuration"""
         
-        service_name = 'user.rain_totals.RainTotals'
+        service_name = 'user.rain_totals_service.RainTotals'
         
         # Remove from data_services
         try:
