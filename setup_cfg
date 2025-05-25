@@ -1,8 +1,8 @@
 [metadata]
 name = rain-totals
 version = 1.0.0
-author = Your Name
-author_email = your.email@example.com
+author = Shane Burkhardt
+author_email = shane@shaneburkhardt.com
 description = WeeWX service to calculate and store rain totals by week, month, and year
 long_description = 
     Rain Totals Extension for WeeWX
@@ -18,7 +18,7 @@ long_description =
     The service is designed to work with existing WeeWX installations and
     requires no additional configuration beyond installation.
 
-url = https://github.com/yourusername/weewx-rain-totals
+url = https://github.com/inguy24/rain_totals_service/
 license = GPL-3.0
 classifiers =
     Development Status :: 4 - Beta
