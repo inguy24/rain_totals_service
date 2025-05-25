@@ -40,10 +40,10 @@ This extension is particularly valuable for creating rainfall climatology charts
 
 ```bash
 # Download the extension
-wget https://github.com/yourusername/weewx-rain-totals/archive/main.zip
+wget wget https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.zip
 
 # Install using weectl
-sudo weectl extension install main.zip
+sudo weectl extension install rain_totals_service-v0.5.0a.zip
 
 # Restart WeeWX
 sudo systemctl restart weewx
@@ -190,7 +190,6 @@ rain-totals/
 │   └── user/
 │       └── rain_totals.py     # Main service code
 ├── install.py                 # Extension installer
-├── setup.cfg                  # Extension metadata
 └── README.md                 # This file
 ```
 
