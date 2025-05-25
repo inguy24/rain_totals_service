@@ -33,20 +33,22 @@ This extension is particularly valuable for creating rainfall climatology charts
 - **WeeWX**: Version 4.0 or later
 - **Python**: Version 3.6 or later (required for f-string support)
 - **Database**: MySQL or SQLite (automatically detected)
+- **MySQL Connector** (if using MySQL): `pip3 install mysql-connector-python` or `sudo apt install python3-mysql.connector`
 
 ## Installation
 
 ### Using weectl (Recommended)
 
 ```bash
-# Download the extension
-wget wget https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.tar
+# Install MySQL connector (if using MySQL database)
+pip3 install mysql-connector-python
+# OR on Debian/Ubuntu systems:
+sudo apt install python3-mysql.connector
 
 # Install using weectl
-sudo weectl extension install rain_totals_service-v0.5.0a.tar
-# or
 sudo weectl extension install https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.tar
-# Restart WeeW
+
+# Restart WeeWX
 sudo systemctl restart weewx
 ```
 
@@ -191,6 +193,7 @@ rain-totals/
 │   └── user/
 │       └── rain_totals.py     # Main service code
 ├── install.py                 # Extension installer
+├── setup.cfg                  # Extension metadata
 └── README.md                 # This file
 ```
 
