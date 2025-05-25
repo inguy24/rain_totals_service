@@ -216,7 +216,7 @@ This project is licensed under the GPL-3.0 License - see the LICENSE file for de
 
 ## Changelog
 
-### Version 1.0.0
+### Version 0.5.0a
 - Initial release
 - Support for MySQL and SQLite databases  
 - Automatic database type detection
