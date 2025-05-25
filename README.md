@@ -28,6 +28,12 @@ This extension is particularly valuable for creating rainfall climatology charts
 - **Three Time Periods**: Calculates totals for weekly, monthly, and yearly periods
 - **Clean Table Names**: Uses descriptive table names that follow WeeWX conventions
 
+## Requirements
+
+- **WeeWX**: Version 4.0 or later
+- **Python**: Version 3.6 or later (required for f-string support)
+- **Database**: MySQL or SQLite (automatically detected)
+
 ## Installation
 
 ### Using weectl (Recommended)
