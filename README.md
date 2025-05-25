@@ -43,7 +43,7 @@ This extension is particularly valuable for creating rainfall climatology charts
 wget wget https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.zip](https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.tar
 
 # Install using weectl
-sudo weectl extension install rain_totals_service-v0.5.0a.zip
+sudo weectl extension install rain_totals_service-v0.5.0a.tar
 or
 sudo weectl extension install https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.zip](https://github.com/inguy24/rain_totals_service/releases/download/v0.5.0a/rain_totals_service-v0.5.0a.tar)
 # Restart WeeWX
