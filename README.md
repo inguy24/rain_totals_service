@@ -54,13 +54,13 @@ sudo systemctl restart weewx
 
 ### Manual Installation
 
-1. Copy `rain_totals.py` to your WeeWX `bin/user/` directory
+1. Copy `rain_totals_service.py` to your WeeWX `bin/user/` directory
 2. Add the service to your `weewx.conf` file:
 
 ```ini
 [Engine]
     [[Services]]
-        data_services = ..., user.rain_totals.RainTotals
+        data_services = ..., user.rain_totals_service.RainTotals
 ```
 
 3. Restart WeeWX
